@@ -1,4 +1,6 @@
 LAB 4
+
+
 QN.1 TO PRINT IF GIVEN NUMBER IS ODD OR EVEN In order to print odd or even we need to take modulus of user input and compare with 0 whether it is equal or not. If equal the output is even ,if not the output will be odd.
 
 QN.2 TO PRINT EACH CHARACTER GIVEN BY USER. In this we treat the string given by user as array of characters and print individual characters using for loop.
@@ -8,6 +10,8 @@ QN.3 SIMPLE CALCULATOR Here we use input type of field to get numbers from use a
 QN 4 TO PRINT REVERSE OF GIVEN STRING In this the logic is same as qn no 2 but the looping part is opposite where we decrease the looping variable from high to low in the script tag.
 
 LAB 5
+
+
 QN.1 TO ALTER VISIBILITY OF AN IMAGE IN HTML USING JAVASCRIPT. In order to alter visibility of any element we use css. Frist we set up a fuction to alter the element and call using onclick="function name()" Then we program the function to alter the visibility using .style.display//.style.visibility
 
 QN.2 TO ILLUSTRATE ELEMENT POSITIONING ANS STACKING ELEMENTS. In stacking the 'top' , 'left' properties of css alloe the placement of an element anywhere in the two dimention display of a document . The placement of elements in third dimension is controlled by z-index attributr of the element. We use z-index to give the view of stacking to the client. To make more interactive we use javascript to provide a clicking mechanism to change the element(for eg : images ) position on clicking them.
