@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+    <style>
+        #a {
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+         #b{
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #c {
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+        
+        #d {
+            position: absolute;
+            margin-top: 110px;
+            margin-left: 110px;
+        }
+        #e {
+            position: absolute;
+            margin-top: 140px;
+            margin-left: 140px;
+        }
+        #f {
+            position: absolute;
+            margin-top: 170px;
+            margin-left: 170px;
+        }
+    </style>
+</head>
+<body>
+    <img src="6.jpg" onclick="func()" id="a" height="200px" width="200px">
+    <img src="1.jpg" onclick="func1()" height="200px" id="b" width="200px">
+    <img src="2.jpg" onclick="func2()" height="200px" id="c" width="200px">
+    <img src="3.jpg" onclick="func3()" height="200px" id="d" width="200px">
+    <img src="4.jpg" onclick="func4()" height="200px" id="e" width="200px">
+    <img src="5.jpg" onclick="func5()" height="200px" id="f" width="200px">
+
+    <script>
+        function func()
+        {
+            var abc = document.getElementById("a");
+            abc.style.zIndex = 5;
+        }
+        function func1(){
+            var abc2 = document.getElementById("b");
+            abc2.style.zIndex = 4;
+        }
+        function func2(){
+            var abc3 = document.getElementById("c");
+            abc3.style.zIndex = 3;
+        }
+        function func3(){
+            var abc4 = document.getElementById("d");
+            abc4.style.zIndex = 2;
+        }
+        function func4(){
+            var abc5 = document.getElementById("e");
+            abc5.style.zIndex = 1;
+        }
+        function func5(){
+            var abc6= document.getElementById("f");
+            abc6.style.zIndex = 5;
+        }
+        
+    </script>
+</body>
+</html>
